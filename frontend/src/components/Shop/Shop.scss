@@ -1,0 +1,11 @@
+@import "../../scss/variables.scss";
+
+.card {
+  border: 3px solid #a200a2 !important;
+}
+
+.btn.btn-buy {
+  background-color: $roxomedio;
+  width: 100%;
+  color: white;
+}

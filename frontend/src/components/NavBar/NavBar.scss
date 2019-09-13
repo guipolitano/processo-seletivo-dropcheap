@@ -1,0 +1,43 @@
+@import "../../scss/variables.scss";
+
+nav.navbar {
+  background-color: white;
+  margin-bottom: 30px;
+}
+
+.nav-link {
+  cursor: pointer;
+}
+.color-medium {
+  color: $roxomedio;
+}
+
+.color-light {
+  color: $roxoclaro;
+}
+
+.badge-light {
+  color: white;
+  background-color: $roxoclaro;
+}
+
+nav .navbar-collapse ul.navbar-nav li a.nav-link {
+  &.active {
+    color: $roxoclaro;
+    &:hover {
+      color: $roxoclaro;
+    }
+  }
+  color: $roxomedio;
+
+  &:hover {
+    color: $roxoclaro;
+  }
+}
+
+.form-control.search {
+  border-radius: 1.25rem;
+  &:focus {
+    box-shadow: 0 0 0 0.2rem rgba(16, 0, 255, 0.25);
+  }
+}
